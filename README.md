@@ -42,4 +42,4 @@ We will need this later to access our database.
 NOTE: If Stack Builder launches after installation completes, just close it. We will be creating tables in the workshop
 
 ## License
-This project is for educational purposes and Valtech internal use only.
+This project is for educational purposes only.
