@@ -31,6 +31,13 @@ Reference: [awesome copilot instructions repo for](https://github.com/github/awe
 - **Text Content**: Use `toHaveText` for exact text matches and `toContainText` for partial matches.
 - **Navigation**: Use `toHaveURL` to verify the page URL after an action.
 
+#### Use the following Wait for strategy
+-Each waiting mechanism has specific use cases:
+-waitForSelector: Best for waiting for elements to appear, disappear, or change state.
+-waitForFunction: Ideal for complex conditions involving multiple elements or JavaScript state.
+-waitForLoadState: Good for ensuring the page has reached a certain loading stage.
+-waitForURL: Perfect for navigation events and redirects.
+-waitForEvent: Useful for downloads, dialogs, and other events.
 
 ## Example Test Structure
 
